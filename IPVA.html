@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Style/styleIPVA.css">
+        <title>Calculadora IPVA</title>
+    </head>
+
+<h1>Calcule o IPVA do seu carro</h1>
+<p>
+<input type="number" id="valorFipe"/>
+<br>
+<br>
+<input type="number" id="resultado"/>
+<br>
+<br>
+<button class= "" id="" onclick="IPVA()">
+    Calcular
+</button>
+<br>
+<br>
+</p>
+<script>
+    function IPVA()
+    {
+        var valorFipe = parseFloat(document.getElementById("valorFipe").value)
+        document.getElementById("resultado").value = valorFipe * 0.040
+    }
+</script>
+
+<body>
+    <img src="Imagens/Golf - Chris Osmond.jpg" href="Style/styleIPVA.css">
+</body>
+
